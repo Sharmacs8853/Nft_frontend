@@ -1,0 +1,28 @@
+.footer_container{
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
+    background-color: #e82b2b;
+    margin-top: -150px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px
+}
+
+.top_container{
+    display: flex;
+    justify-content: space-between;
+    margin-right:80px;
+    margin-left: 80px;
+    border-bottom: 2px dashed white;
+}
+.box{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.bottom_container{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 20px;
+    justify-content: space-between;
+}

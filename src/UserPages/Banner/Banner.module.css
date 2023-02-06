@@ -1,0 +1,61 @@
+.container {
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.tagline{
+    padding-top: 40px;
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+.tagline_container{
+    padding-right: 200px;
+    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.image_section{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.middle_container{
+    /* width: 500px; */
+    height: 600px;
+    
+    display: flex;
+}
+.image_div{
+   margin: auto;
+    border: 15px solid #1b1e1f;
+    height: 100%;
+    border-radius: 160px;
+    background-color: #21282c;
+}
+
+.left_container{
+    height: 500px;
+    width: auto;
+    margin-top: 50px;
+}
+.appstore_section{
+    width: 70%;
+    justify-content: space-around;
+    gap: 60px;
+    flex-direction: column;
+   
+}
+.right_container{
+    height: 500px;
+    width: auto;
+}
+.button{
+    background-color: #e82b2b;
+    padding: 8px 60px 8px 60px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(185, 64, 64, 0.56) 0px 22px 70px 4px;
+}
